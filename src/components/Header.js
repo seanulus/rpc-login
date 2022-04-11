@@ -8,7 +8,7 @@ export default function Header() {
 				<a href='/' className='logo'>
 					<SVGComponent />
 				</a>
-				<button className='button-rpc'>Sign in</button>
+				<button className='button-rpc'>Sign Up</button>
 		</header>
 	)
 }
