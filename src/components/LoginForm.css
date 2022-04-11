@@ -1,0 +1,130 @@
+h2 {
+	font-weight: bold;
+	color: rgb(32, 58, 96);
+	margin: 0;
+}
+
+input {
+	color: rgb(32, 58, 96);
+	width: 100%;
+  height: 3rem;
+  border-radius: 5px;
+  border: 1px solid rgba(207, 206, 207, 0.37);
+  margin: 0.5rem 0px 0px;
+  font-size: 1.125rem;
+  padding: 0.6rem 1rem;
+}
+
+input:hover {
+	border: 1px solid rgb(243, 142, 125)
+}
+
+.login {
+	display: flex;
+	margin: auto;
+	/*align-items: center;*/
+	padding: 2rem 1.5rem;
+	border-radius: unset;
+	box-shadow: 30px 30px 60px 0 rgb(74 74 74 / 25%);
+	border: 1px solid rgba(207, 206, 207, 0.37);
+	background-color: white;
+	box-sizing: border-box;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	;
+}
+
+.submit-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.welcome-text {
+	margin-top: 1rem;
+	font-size: 1.125rem;
+	color: rgb(32, 58, 96);
+}
+
+.login .forgot {
+	text-align: right;
+}
+
+.form-input {
+	width: 100%;
+	margin-top: 1rem;
+	opacity: 0.5;
+	box-sizing: border-box;
+}
+
+.forgot {
+	opacity: 0.2;
+	align-self: end;
+	color: rgb(0, 0, 0);
+	margin-top: 0;
+	font-size: 1.125rem;
+	margin-right: -2rem;
+}
+
+.button-container {
+	display: flex;
+	margin: 2.5rem;
+}
+
+.signin-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  width: 11.975rem;
+  height: 3rem;
+  border-radius: 5px;
+  background-color: rgb(4, 149, 95);
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.new-account {
+	font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgb(243, 142, 125);
+  text-decoration: none;
+}
+
+.new-account:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media (min-width: 960px) { 
+	.login {
+		display: flex;
+		align-items: center;
+		padding: 1.25rem 8rem;
+		width: unset;
+		height: unset;
+		border-radius: 5px;
+	}
+}
+
+@media (max-width: 960px) {
+	.form-input {
+		padding-right: 2rem;
+	}
+
+	.forgot {
+		margin: 0;
+	}
+
+	.new-account {
+		text-align: center !important;
+	}
+}
