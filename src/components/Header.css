@@ -1,0 +1,28 @@
+.header-rpc {
+	height: 5.625rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 2.5rem;
+	z-index: 3;
+	background-color: white;
+}
+
+.logo {
+	width: 160px;
+	align-self: center;	
+}
+
+.button-rpc {
+	align-self: center;
+	width: 7rem;
+	color: white;
+	background-color: rgb(32, 58, 96);
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	height: 3rem;
+	border: none;
+	font-size: 1.125rem;
+  line-height: normal;
+  opacity: 1;
+}

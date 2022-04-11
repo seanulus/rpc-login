@@ -1,0 +1,9 @@
+.footer-rpc {
+	background-color: rgb(32, 58, 96);
+	text-align: center;
+	color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
